@@ -1,0 +1,117 @@
+2026-01-31 12:08:56,018 : INFO : root : Loading config.
+2026-01-31 12:08:56,021 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-01-31 12:08:56,022 : INFO : ConfigProcessor : Loading config from cache: C:\Users\PINBALL\AppData\Local\Temp\85068ee8e1fc4fe607084c3a18fa8a28.mpf_cache
+2026-01-31 12:08:56,071 : WARNING : ConfigProcessor : Config file in cache changed: C:\users\pinball\documents\sonic\modes\attract\config\attract.yaml
+2026-01-31 12:08:56,072 : INFO : ConfigProcessor : Loading config from file C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2026-01-31 12:08:56,073 : INFO : ConfigProcessor : Loading config: C:\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-01-31 12:08:56,073 : INFO : ConfigProcessor : Loading config from file C:\users\pinball\documents\sonic\modes\attract\config\attract.yaml.
+2026-01-31 12:08:56,077 : INFO : ConfigProcessor : Loading config: C:\users\pinball\documents\sonic\modes\attract\config\attract.yaml
+2026-01-31 12:08:56,077 : INFO : ConfigProcessor : Config file cache created: C:\Users\PINBALL\AppData\Local\Temp\18eff4bb2db2c1f230cdef763eb53857.mpf_cache
+2026-01-31 12:08:56,078 : INFO : ConfigProcessor : Loading config from cache: C:\Users\PINBALL\AppData\Local\Temp\af6ad0dab2f43bd9cbdac83e0b2786ac.mpf_cache
+2026-01-31 12:08:56,078 : INFO : ConfigProcessor : Loading config from cache: C:\Users\PINBALL\AppData\Local\Temp\18eff4bb2db2c1f230cdef763eb53857.mpf_cache
+2026-01-31 12:08:56,079 : INFO : ConfigProcessor : Loading config from cache: C:\Users\PINBALL\AppData\Local\Temp\ee4ab88e33db079c6b0f3117544f246a.mpf_cache
+2026-01-31 12:08:56,080 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev12
+2026-01-31 12:08:56,080 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-01-31-12-08-56-mpf-DESKTOP-HKGT699.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': 'C:\\users\\pinball\\documents\\sonic\\logs\\2026-01-31-12-08-56-mpf-DESKTOP-HKGT699.log'}
+2026-01-31 12:08:56,080 : INFO : Machine : MPF path: C:\mpf\Lib\site-packages\mpf
+2026-01-31 12:08:56,080 : INFO : Machine : Machine path: C:\users\pinball\documents\sonic
+2026-01-31 12:08:56,080 : INFO : Machine : Platform: win32
+2026-01-31 12:08:56,080 : INFO : Machine : Python executable location: C:\mpf\Scripts\python.exe
+2026-01-31 12:08:56,080 : INFO : Machine : Python version: 3.13.11 (64-bit)
+2026-01-31 12:08:56,081 : INFO : Machine : Initializing MPF...
+2026-01-31 12:08:56,135 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-01-31 12:08:56,147 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-01-31 12:08:56,147 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12', 'prev_value': None, 'change': True}
+2026-01-31 12:08:56,147 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-01-31 12:08:56,147 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.13.11', 'prev_value': None, 'change': True}
+2026-01-31 12:08:56,197 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26200-SP0', 'prev_value': None, 'change': True}
+2026-01-31 12:08:56,197 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2026-01-31 12:08:56,197 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2026-01-31 12:08:56,197 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26200', 'prev_value': None, 'change': True}
+2026-01-31 12:08:56,197 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2026-01-31 12:08:56,197 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\users\\pinball\\documents\\sonic\\logs\\2026-01-31-12-08-56-mpf-DESKTOP-HKGT699.log', 'prev_value': None, 'change': True}
+2026-01-31 12:08:56,197 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-01-31 12:08:56,206 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2026-01-31 12:08:56,207 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2026-01-31 12:08:56,209 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2026-01-31 12:09:02,906 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2026-01-31 12:09:02,907 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2026-01-31 12:09:02,908 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2026-01-31 12:09:02,908 : INFO : ball_device.bd_plunger : State: idle
+2026-01-31 12:09:02,909 : INFO : ball_device.bd_trough : BCH: Initial count: 0
+2026-01-31 12:09:02,909 : INFO : ball_device.bd_trough : State: idle
+2026-01-31 12:09:02,919 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2026-01-31 12:09:02,921 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2026-01-31 12:09:02,921 : INFO : BallController : Initial balls found: 0
+2026-01-31 12:09:02,923 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-01-31 12:09:02,923 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-01-31 12:09:02,923 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-01-31 12:09:02,923 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-01-31 12:09:02,923 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-01-31 12:09:02,923 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-01-31 12:09:02,923 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-01-31 12:09:02,923 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-01-31 12:09:02,923 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'top': [], 'average': 0, 'total': 0}, 'prev_value': None, 'change': True}
+2026-01-31 12:09:02,924 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2026-01-31 12:09:02,924 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2026-01-31 12:09:02,924 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2026-01-31 12:09:02,934 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2026-01-31 12:09:02,935 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2026-01-31 12:09:02,935 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2026-01-31 12:09:02,935 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2026-01-31 12:09:02,935 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-01-31 12:09:02,935 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-01-31 12:09:02,935 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-01-31 12:09:02,936 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2026-01-31 12:09:02,936 : INFO : Mode.attract : Started. Priority: 10
+2026-01-31 12:09:02,936 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-01-31 12:09:02,937 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2026-01-31 12:09:02,937 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2026-01-31 12:09:02,937 : ERROR : asyncio : Exception in callback EventManager.process_event_queue()
+handle: <Handle EventManager.process_event_queue()>
+Traceback (most recent call last):
+  File "C:\Users\PINBALL\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\events.py", line 862, in process_event_queue
+    callback(**kwargs)
+    ~~~~~~~~^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\mode.py", line 266, in _mode_started_callback
+    self.mode_start(**self.start_event_kwargs)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\modes\attract\code\attract.py", line 62, in mode_start
+    super().mode_start(**kwargs)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\modes\carousel\code\carousel.py", line 73, in mode_start
+    self._register_handlers(self._next_item_events, self._next_item)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\modes\carousel\code\carousel.py", line 92, in _register_handlers
+    for event in events:
+                 ^^^^^^
+TypeError: 'NoneType' object is not iterable
+2026-01-31 12:09:02,940 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2026-01-31 12:09:02,940 : INFO : Machine : Shutting down...
+2026-01-31 12:09:02,940 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-01-31 12:09:02,942 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 810, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\PINBALL\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\events.py", line 862, in process_event_queue
+    callback(**kwargs)
+    ~~~~~~~~^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\mode.py", line 266, in _mode_started_callback
+    self.mode_start(**self.start_event_kwargs)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\modes\attract\code\attract.py", line 62, in mode_start
+    super().mode_start(**kwargs)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\modes\carousel\code\carousel.py", line 73, in mode_start
+    self._register_handlers(self._next_item_events, self._next_item)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\modes\carousel\code\carousel.py", line 92, in _register_handlers
+    for event in events:
+                 ^^^^^^
+TypeError: 'NoneType' object is not iterable
+2026-01-31 12:09:02,943 : INFO : root : MPF run loop ended.

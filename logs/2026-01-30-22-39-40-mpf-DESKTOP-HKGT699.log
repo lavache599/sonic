@@ -1,0 +1,130 @@
+2026-01-30 22:39:40,025 : INFO : root : Loading config.
+2026-01-30 22:39:40,028 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-01-30 22:39:40,028 : INFO : ConfigProcessor : Loading config from cache: C:\Users\PINBALL\AppData\Local\Temp\85068ee8e1fc4fe607084c3a18fa8a28.mpf_cache
+2026-01-30 22:39:40,082 : INFO : ConfigProcessor : Loading config from cache: C:\Users\PINBALL\AppData\Local\Temp\18eff4bb2db2c1f230cdef763eb53857.mpf_cache
+2026-01-30 22:39:40,083 : INFO : ConfigProcessor : Loading config from cache: C:\Users\PINBALL\AppData\Local\Temp\af6ad0dab2f43bd9cbdac83e0b2786ac.mpf_cache
+2026-01-30 22:39:40,084 : INFO : ConfigProcessor : Loading config from cache: C:\Users\PINBALL\AppData\Local\Temp\18eff4bb2db2c1f230cdef763eb53857.mpf_cache
+2026-01-30 22:39:40,084 : INFO : ConfigProcessor : Loading config from cache: C:\Users\PINBALL\AppData\Local\Temp\ee4ab88e33db079c6b0f3117544f246a.mpf_cache
+2026-01-30 22:39:40,084 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev12
+2026-01-30 22:39:40,084 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-01-30-22-39-40-mpf-DESKTOP-HKGT699.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': 'C:\\users\\pinball\\documents\\sonic\\logs\\2026-01-30-22-39-40-mpf-DESKTOP-HKGT699.log'}
+2026-01-30 22:39:40,084 : INFO : Machine : MPF path: C:\mpf\Lib\site-packages\mpf
+2026-01-30 22:39:40,084 : INFO : Machine : Machine path: C:\users\pinball\documents\sonic
+2026-01-30 22:39:40,084 : INFO : Machine : Platform: win32
+2026-01-30 22:39:40,084 : INFO : Machine : Python executable location: C:\mpf\Scripts\python.exe
+2026-01-30 22:39:40,084 : INFO : Machine : Python version: 3.13.11 (64-bit)
+2026-01-30 22:39:40,086 : INFO : Machine : Initializing MPF...
+2026-01-30 22:39:40,144 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-01-30 22:39:40,157 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-01-30 22:39:40,157 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12', 'prev_value': None, 'change': True}
+2026-01-30 22:39:40,157 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev12, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-01-30 22:39:40,158 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.13.11', 'prev_value': None, 'change': True}
+2026-01-30 22:39:40,205 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26200-SP0', 'prev_value': None, 'change': True}
+2026-01-30 22:39:40,205 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2026-01-30 22:39:40,205 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2026-01-30 22:39:40,205 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26200', 'prev_value': None, 'change': True}
+2026-01-30 22:39:40,205 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2026-01-30 22:39:40,205 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\users\\pinball\\documents\\sonic\\logs\\2026-01-30-22-39-40-mpf-DESKTOP-HKGT699.log', 'prev_value': None, 'change': True}
+2026-01-30 22:39:40,205 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-01-30 22:39:40,214 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2026-01-30 22:39:40,214 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-19' coro=<BallDevice._initialize_async() done, defined at C:\mpf\Lib\site-packages\mpf\devices\ball_device\ball_device.py:196> exception=ConfigFileError('Config validation error: Entry ball_device_counter_ball_switches:ball_device_counter_ball_switches:ball_switches = "s_plunger_lane" is not valid. Device "s_plunger_lane" not found in "switches:" section in your config.')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\devices\ball_device\ball_device.py", line 198, in _initialize_async
+    await self.ball_count_handler.initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\ball_device\ball_count_handler.py", line 92, in initialize
+    self.counter = counter_class(self.ball_device, self.ball_device.config.get("counter", {}))
+                   ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\ball_device\switch_counter.py", line 27, in __init__
+    self.config = self.machine.config_validator.validate_config("ball_device_counter_ball_switches", self.config)
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                 validation_failure_info=validation_failure_info)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\config_validator.py", line 204, in _validate_config
+    processed_config[k] = self.validate_config_item(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        this_spec[k], item=source[k],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        validation_failure_info=ValidationPath(validation_failure_info, k))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\config_validator.py", line 256, in validate_config_item
+    new_list.append(self.validate_item(i, validation, validation_failure_info))
+                    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\config_validator.py", line 699, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\config_validator.py", line 413, in _validate_type_machine
+    raise self.validation_error(item, validation_failure_info,
+                                'Device "{}" not found in "{}:" section in your config.'.format(item, param),
+                                6)
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry ball_device_counter_ball_switches:ball_device_counter_ball_switches:ball_switches = "s_plunger_lane" is not valid. Device "s_plunger_lane" not found in "switches:" section in your config. Error Code: CFE-ConfigValidator-6 (https://missionpinball.org/latest/logs)
+2026-01-30 22:39:40,217 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-20' coro=<BallDevice._initialize_async() done, defined at C:\mpf\Lib\site-packages\mpf\devices\ball_device\ball_device.py:196> exception=ConfigFileError('Config validation error: Entry ball_device_counter_ball_switches:ball_device_counter_ball_switches:ball_switches = "s_trough_1" is not valid. Device "s_trough_1" not found in "switches:" section in your config.')>
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\devices\ball_device\ball_device.py", line 198, in _initialize_async
+    await self.ball_count_handler.initialize()
+  File "C:\mpf\Lib\site-packages\mpf\devices\ball_device\ball_count_handler.py", line 92, in initialize
+    self.counter = counter_class(self.ball_device, self.ball_device.config.get("counter", {}))
+                   ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\devices\ball_device\switch_counter.py", line 27, in __init__
+    self.config = self.machine.config_validator.validate_config("ball_device_counter_ball_switches", self.config)
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                 validation_failure_info=validation_failure_info)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\config_validator.py", line 204, in _validate_config
+    processed_config[k] = self.validate_config_item(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        this_spec[k], item=source[k],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        validation_failure_info=ValidationPath(validation_failure_info, k))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\config_validator.py", line 256, in validate_config_item
+    new_list.append(self.validate_item(i, validation, validation_failure_info))
+                    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\config_validator.py", line 699, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\config_validator.py", line 413, in _validate_type_machine
+    raise self.validation_error(item, validation_failure_info,
+                                'Device "{}" not found in "{}:" section in your config.'.format(item, param),
+                                6)
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry ball_device_counter_ball_switches:ball_device_counter_ball_switches:ball_switches = "s_trough_1" is not valid. Device "s_trough_1" not found in "switches:" section in your config. Error Code: CFE-ConfigValidator-6 (https://missionpinball.org/latest/logs)
+2026-01-30 22:39:40,218 : INFO : Machine : Starting the main run loop with active modes: []
+2026-01-30 22:39:40,219 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2026-01-30 22:39:40,223 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2026-01-30 22:39:40,223 : INFO : Machine : Shutting down...
+2026-01-30 22:39:40,223 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-01-30 22:39:40,223 : ERROR : root : no running event loop
+Traceback (most recent call last):
+  File "C:\mpf\Lib\site-packages\mpf\commands\game.py", line 229, in __init__
+    self.machine.run()
+    ~~~~~~~~~~~~~~~~^^
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 706, in run
+    self._run_loop()
+    ~~~~~~~~~~~~~~^^
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 806, in _run_loop
+    self._crash_shutdown()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 751, in _crash_shutdown
+    self._do_stop()
+    ~~~~~~~~~~~~~^^
+  File "C:\mpf\Lib\site-packages\mpf\core\machine.py", line 741, in _do_stop
+    self.events.process_event_queue()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\mpf\Lib\site-packages\mpf\core\events.py", line 842, in process_event_queue
+    self._process_queue_event(event=event[0],
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+                              callback=event[2],
+                              ^^^^^^^^^^^^^^^^^^
+                              **event[3])
+                              ^^^^^^^^^^^
+  File "C:\mpf\Lib\site-packages\mpf\core\events.py", line 783, in _process_queue_event
+    task = asyncio.create_task(self._run_handlers_sequential(event, callback, kwargs))
+  File "C:\Users\PINBALL\AppData\Local\Programs\Python\Python313\Lib\asyncio\tasks.py", line 407, in create_task
+    loop = events.get_running_loop()
+RuntimeError: no running event loop
